@@ -8,27 +8,8 @@
   <hr/>
   <div class="row">
     <div class="col-md-6 license" id="license-info" align="left">
-	{% if site.carpentry == "swc" %}
-	Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2018–{{ 'now' | date: "%Y" }}
-	by <a href="{{ site.carpentries_site }}">The Carpentries</a>
-        <br>
-        Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2016–2018
-	by <a href="{{ site.swc_site }}">Software Carpentry Foundation</a>
-	{% elsif site.carpentry == "dc" %}
-	Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2018–{{ 'now' | date: "%Y" }}
-	by <a href="{{ site.carpentries_site }}">The Carpentries</a>
-        <br>
-        Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2016–2018
-	by <a href="{{ site.dc_site }}">Data Carpentry</a>
-	{% elsif site.carpentry == "lc" %}
-	Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2016–{{ 'now' | date: "%Y" }}
-	by <a href="{{ site.lc_site }}">Library Carpentry</a>
-	{% elsif site.carpentry == "cp" %}
-	Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2018–{{ 'now' | date: "%Y" }}
-	by <a href="{{ site.carpentries_site }}">The Carpentries</a>
-        {% elsif site.carpentry == "incubator" %}
-        Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> {{ 'now' | date: "%Y" }} by <a href="{{ relative_root_path }}{% link CITATION  %}">the authors</a>.
-	{% endif %}
+	Licensed under <a href="{{ site.cc_by_human }}">CC-BY 4.0</a> 2019–{{ 'now' | date: "%Y" }}
+	by N E Davis.
     </div>
     <div class="col-md-6 help-links" align="right">
 	{% if page.source %}
@@ -49,6 +30,6 @@
     </div>
   </div>
   <p class="text-muted text-right">
-    <small><i>Using <a href="https://github.com/carpentries/carpentries-theme/">The Carpentries theme</a> &mdash; Site last built on: {{ site.time }}.</i></small>
+    <small>Site last built on: {{ site.time }}.</i></small>
   </p>
 </footer>
